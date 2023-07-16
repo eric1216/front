@@ -1,0 +1,32 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  max-width: 200px;
+}
+
+.nav-link a {
+  color: var(--font-color-base);
+  margin-right: var(--size-20);
+  line-height: var(--size-20);
+}
+
+.nav-link a:hover {
+  color: var(--blue);
+}
