@@ -30,3 +30,143 @@
 .nav-link a:hover {
   color: var(--blue);
 }
+
+.hero-header {
+  padding: var(--size-150) 0 0 0;
+  background-image: url('../assets/abstract/hero-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 95%;
+  position: relative;
+  z-index: -100;
+}
+
+
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.left-panel h2 {
+  font-size: var(--size-50);
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: var(--size-20);
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  margin-bottom: var(--size-10);
+}
+
+.left-panel p {
+  margin-bottom: var(--size-30);
+  font-size: var(--size-18);
+}
+
+.left-panel .actions {
+  display: flex;
+  align-items: center;
+  gap: var(--size-20);
+}
+
+.actions .action2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.right-panel {
+  position: relative;
+  height: 406px;
+  width: 477px;
+}
+
+.company-logo {
+  position: absolute;
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
+  border-radius: 50%;
+}
+
+.company-logo.google,
+.company-logo.google-a {
+  height: 60px;
+  width: 60px;
+}
+
+.company-logo.atlassian,
+.company-logo.asana,
+.company-logo.paypal,
+.company-logo.weave,
+.company-logo.calendar {
+  height: 80px;
+  width: 80px;
+}
+
+.company-logo.google img,
+.company-logo.google-a img {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.company-logo.atlassian img,
+.company-logo.asana img,
+.company-logo.paypal img,
+.company-logo.weave img,
+.company-logo.calendar img {
+  margin: 16px;
+  height: 48px;
+  width: 48px;
+}
+
+.company-logo.google {
+  top: 10px;
+  right: 353px;
+  bottom: 336px;
+  left: 64px;
+}
+
+.company-logo.atlassian {
+  top: 10px;
+  right: 222px;
+  bottom: 316px;
+  left: 175px;
+}
+
+.company-logo.asana {
+  top: 10px;
+  right: 17px;
+  bottom: 316px;
+  left: 380px;
+}
+
+.company-logo.paypal {
+  top: 172px;
+  right: 353px;
+  bottom: 154px;
+  left: 44px;
+}
+
+.company-logo.weave {
+  top: 172px;
+  right: 135px;
+  bottom: 154px;
+  left: 262px;
+}
+
+.company-logo.google-a {
+  top: 290px;
+  right: 262px;
+  bottom: 56px;
+  left: 155px;
+}
+
+.company-logo.calendar {
+  top: 310px;
+  right: 33px;
+  bottom: 16px;
+  left: 364px;
+}
