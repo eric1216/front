@@ -526,3 +526,149 @@
   display: flex;
   align-items: flex-start;
 }
+
+.hire-us-wrapper h2,
+.hire-us-wrapper h3,
+.hire-us-wrapper span {
+  color: white;
+}
+
+.hire-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex: 1;
+  align-self: stretch;
+}
+
+.hire-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.hire-phrase {
+  margin-right: 250px;
+}
+
+.hire-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.hire-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.hire-bottom .hire-person p {
+  font-size: var(--size-12);
+}
+
+.hire-person-images {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hire-person-images img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.hire-person-images img:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.hire-right {
+  display: flex;
+  flex: 1;
+  padding: var(--size-30);
+}
+
+.hire-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+  border-radius: var(--size-10);
+  background-color: var(--white);
+}
+
+.hire-right form h3 {
+  color: var(--black);
+  margin: 0;
+  font-size: var(--size-16);
+  font-weight: 700;
+}
+
+.hire-right form span {
+  color: var(--font-color-base);
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex: 1;
+}
+
+.form-group .privacy-policy {
+  display: flex;
+  justify-content: center;
+  gap: var(--size-30);
+}
+
+.privacy-button a {
+  color: var(--blue);
+  font-size: var(--size-16);
+  text-decoration: underline dotted;
+}
+
+.privacy-button:nth-child(2) a {
+  color: var(--font-color-base);
+}
+
+.form-data .form-group input,
+.form-data .form-group select,
+.form-data textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #E6E8F2;
+  flex: 1;
+}
+
+.form-group input[type="checkbox"] {
+  transform: scale(1.7);
+  border: 1px solid #E6E8F2;
+}
+
+.form-data textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
