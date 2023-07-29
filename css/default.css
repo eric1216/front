@@ -114,10 +114,10 @@ img {
 
 @media (min-width: 760px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 768px) {}
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 }

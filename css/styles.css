@@ -26,6 +26,26 @@
   line-height: var(--size-20);
 }
 
+.navbar-toggler {
+  position: absolute;
+  right: var(--size-20);
+  top: var(--size-10);
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.navbar-toggler span {
+  color: var(--black);
+  font-size: var(--size-20);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+[aria-controls="navbarDropdown"] {
+  display: none;
+}
+
 .hero-header {
   padding: var(--size-150) 0 0 0;
   background-image: url('../assets/abstract/hero-bg.jpeg');
@@ -183,7 +203,7 @@
 
 .benefits-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: var(--size-10) var(--size-30);
   gap: var(--size-30);
 }
@@ -191,6 +211,7 @@
 .benefit-item {
   display: flex;
   flex-direction: column;
+  flex-basis: calc(50% - var(--size-30));
   gap: var(--size-20);
   padding: var(--size-20);
   width: 100%;
@@ -334,12 +355,16 @@
   padding: 10px 0 10px 4px;
 }
 
+.hub-spot {
+  padding-bottom: var(--size-150);
+}
+
 .hub-spot-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 60px;
-  height: 560px;
+  height: 100%;
 }
 
 .hub-spot-left {
@@ -417,9 +442,8 @@
   width: 100%;
 }
 
-.brand-list img {
+.brand-item img {
   height: 40px;
-  flex: 1 0 0;
 }
 
 .pricing {
@@ -824,4 +848,8 @@
   flex-direction: column;
   align-items: center;
   gap: var(--size-20);
+}
+
+.footer-copyright p {
+  text-align: center;
 }
