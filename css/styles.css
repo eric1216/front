@@ -3,6 +3,7 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 100;
 }
 
 .navbar .container {
@@ -24,6 +25,10 @@
 .nav-link a {
   margin-right: var(--size-20);
   line-height: var(--size-20);
+}
+
+.nav-link a:hover {
+  color: var(--blue);
 }
 
 .navbar-toggler {
@@ -53,7 +58,7 @@
   background-size: cover;
   background-position: 50% 95%;
   position: relative;
-  z-index: -100;
+
 }
 
 .hero-wrapper {
@@ -230,7 +235,6 @@
 .benefit-item p {
   font-size: var(--size-14);
   margin: 0;
-  margin-right: 38px;
 }
 
 .banner {
@@ -437,7 +441,8 @@
 .brand-list {
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  justify-content: space-evenly;
+  gap: 30px;
   padding: 0 30px;
   width: 100%;
 }
@@ -570,7 +575,7 @@
 }
 
 .hire-phrase {
-  margin-right: 250px;
+  margin-right: 160px;
 }
 
 .hire-bottom {
@@ -655,13 +660,17 @@
 
 .form-group .privacy-policy {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: var(--size-30);
 }
 
 .privacy-button a {
-  font-size: var(--size-16);
+  font-size: var(--size-14);
   text-decoration: underline dotted;
+}
+
+.privacy-button a:hover {
+  color: var(--blue);
 }
 
 .form-data .form-group input,
@@ -676,6 +685,8 @@
 .form-group input[type="checkbox"] {
   transform: scale(1.7);
   border: 1px solid #E6E8F2;
+  margin: 0;
+  margin-top: 10px;
 }
 
 .form-data textarea {
@@ -783,6 +794,10 @@
 .footer-privacy {
   display: flex;
   gap: 6px;
+}
+
+.footer-privacy a:hover {
+  color: var(--blue);
 }
 
 .footer-privacy span {

@@ -55,10 +55,6 @@ a {
   transition: color 0.3s;
 }
 
-a:hover {
-  color: var(--blue);
-}
-
 p {
   margin-top: 0;
   color: var(--font-color-base);
@@ -87,6 +83,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1024px;
 }
 
 .btn {
@@ -116,8 +113,4 @@ img {
 
 @media (min-width: 768px) {}
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1000px;
-  }
-}
+@media (min-width: 1024px) {}
