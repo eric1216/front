@@ -66,6 +66,10 @@
     align-items: center;
   }
 
+  .hub-spot-right .person {
+    text-align: center;
+  }
+
   .hub-spot-right .description {
     align-items: center;
     text-align: center;
@@ -73,11 +77,6 @@
 
   .hire-us-wrapper {
     flex-direction: column;
-  }
-
-  .brand-list {
-    justify-content: center;
-    flex-wrap: wrap;
   }
 
   .pricing-plans {
@@ -116,7 +115,118 @@
 
 
 @media screen and (max-width: 360px) {
-  body {
-    color: green;
+  .right-panel {
+    width: 360px;
+    height: 309px;
   }
+
+  .company-logo.google {
+    top: 0;
+    left: 0;
+  }
+
+  .company-logo.atlassian {
+    top: 0;
+    left: 114px;
+  }
+
+  .company-logo.asana {
+    top: 0;
+    left: 248px;
+  }
+
+  .company-logo.paypal {
+    top: 99px;
+    left: 0;
+  }
+
+  .company-logo.weave {
+    top: 99px;
+    left: 184px;
+  }
+
+  .company-logo.google-a {
+    top: 209px;
+    left: 106px;
+  }
+
+  .company-logo.calendar {
+    top: 219px;
+    left: 239px;
+  }
+
+  .bullet-list {
+    flex-direction: column;
+  }
+
+  .bullet .top .left-wing, .bullet .top .right-wing {
+    display: none;
+  }
+
+  .hub-spot-left .hub-spot-woman {
+    width: 262px;
+    height: 300px;
+  }
+
+  .hub-spot-left .dots {
+    width: 141px;
+    height: 261px;
+    margin-top: 70px;
+  }
+
+  .pricing-plans {
+    padding: 0;
+  }
+
+  .plan-feature-top, .plan-feature-bottom {
+    flex-direction: column;
+  }
+
+  .hire-left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hire-bottom {
+    align-items: center;
+  }
+
+  .hire-person {
+    align-items: center;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-group:last-child {
+    flex-direction: row;
+  }
+
+  .privacy-button:last-child {
+    display: none;
+  }
+
+  .form-group input[type="checkbox"] {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-address, .footer-index {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+
 }

@@ -64,8 +64,8 @@
 .hero-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  justify-content: center;
+  gap: 30px;
 }
 
 .left-panel h2 {
@@ -89,6 +89,7 @@
 
 .right-panel {
   position: relative;
+  box-sizing: border-box;
   height: 406px;
   width: 477px;
 }
@@ -152,55 +153,41 @@
 
 .company-logo.google {
   top: 10px;
-  right: 353px;
-  bottom: 336px;
   left: 64px;
 }
 
 .company-logo.atlassian {
   top: 10px;
-  right: 222px;
-  bottom: 316px;
   left: 175px;
   animation-delay: 0.1s;
 }
 
 .company-logo.asana {
   top: 10px;
-  right: 17px;
-  bottom: 316px;
   left: 380px;
   animation-delay: 0.2s;
 }
 
 .company-logo.paypal {
   top: 172px;
-  right: 353px;
-  bottom: 154px;
   left: 44px;
   animation-delay: 0.2s;
 }
 
 .company-logo.weave {
   top: 172px;
-  right: 135px;
-  bottom: 154px;
   left: 262px;
   animation-delay: 0.3s;
 }
 
 .company-logo.google-a {
   top: 290px;
-  right: 262px;
-  bottom: 56px;
   left: 155px;
   animation-delay: 0.3s;
 }
 
 .company-logo.calendar {
   top: 310px;
-  right: 33px;
-  bottom: 16px;
   left: 364px;
   animation-delay: 0.4s;
 }
@@ -460,6 +447,7 @@
 .brand-wrapper h2 {
   font-weight: 600;
   color: var(--font-color-base);
+  text-align: center;
 }
 
 .brand-list {
@@ -776,6 +764,7 @@
 
 .footer-index {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
