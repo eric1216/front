@@ -155,6 +155,10 @@
     left: 239px;
   }
 
+  .benefits-list {
+    flex-direction: column;
+  }
+
   .bullet-list {
     flex-direction: column;
   }
@@ -228,5 +232,16 @@
     flex-direction: column;
   }
 
+  .footer-socials {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: var(--size-20);
+    gap: 12px;
+  }
 
+  .footer-country {
+    padding: 4px;
+    flex-grow: 0.4;
+    justify-content: center;
+  }
 }
