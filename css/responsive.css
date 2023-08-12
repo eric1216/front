@@ -8,19 +8,40 @@
   }
 
   [aria-expanded="true"] ~ ul {
-    display: block;
+    display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
     right: 0;
-    top: var(--size-50);
-    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
+    top: 0;
+    height: 100vh;
+    z-index: -100;
+    background-color: var(--white);
     width: 100%;
-    text-align: right;
+    text-align: center;
     box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
   }
 
+  [aria-expanded="true"] ~ ul li {
+    color: var(--font-color-base);
+  }
+
   [aria-expanded="true"] ~ ul li a {
-    margin-right: var(--size-20);
-    color: var(--font-color-dark);
+    margin: 0;
+  }
+
+  [aria-expanded="false"] .close {
+    display: none;
+  }
+
+  [aria-expanded="true"] .close {
+    display: inline-block;
+  }
+
+  [aria-expanded="true"] .open {
+    display: none;
   }
 
   .hero-header {
@@ -115,6 +136,14 @@
 
 
 @media screen and (max-width: 360px) {
+  .nav-flex {
+    flex-direction: column;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    gap: 20px;
+  }
+
   .right-panel {
     width: 360px;
     height: 309px;

@@ -51,6 +51,13 @@
   display: none;
 }
 
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 .hero-header {
   padding: var(--size-150) 0 0 0;
   background-image: url('../assets/abstract/hero-bg.jpeg');
