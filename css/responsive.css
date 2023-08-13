@@ -207,6 +207,11 @@
     margin-top: 70px;
   }
 
+  .brand-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .pricing-plans {
     padding: 0;
   }
