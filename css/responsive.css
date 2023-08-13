@@ -135,7 +135,7 @@
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .nav-flex {
     flex-direction: column;
   }
@@ -190,15 +190,39 @@
 
   .bullet-list {
     flex-direction: column;
+    padding: 0 2.125rem;
+  }
+
+  .bullet {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--size-30);
+  }
+
+  .top {
+    width: auto;
   }
 
   .bullet .top .left-wing, .bullet .top .right-wing {
     display: none;
   }
 
+  .banner {
+    padding: 0 0 80px 0;
+  }
+
+  .container.banner-wrapper {
+    padding: 0 15px;
+  }
+
+  .banner-two-wrapper img {
+    width: 100%;
+  }
+
   .hub-spot-left .hub-spot-woman {
     width: 262px;
     height: 300px;
+    margin-left: 61px;
   }
 
   .hub-spot-left .dots {
@@ -260,6 +284,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
   }
 
   .footer-links {
